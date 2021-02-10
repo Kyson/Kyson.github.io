@@ -1,0 +1,88 @@
+base_info:
+  title: AndroidGodEye
+  author: Kyson
+  url: https://hikyson.cn/
+
+style:
+  # Theme primary color
+  primary_color: "#009966"
+
+  # Image align position, value: left | center
+  img_position: left
+
+  # Left side width
+  left_side_width: 260px
+
+  # Mouse hover
+  hover:
+    shadow: true # shadow effect when the mouse hover
+    scale: false # scale effect when the mouse hover
+
+  # First screen
+  first_screen:
+    enable: false
+    background_img: 
+    description: Hi, Kyson
+
+menu:
+  Home: /
+  Archives: /archives
+  # Categories: /categories
+  Tags: /tags
+  # Links: /links
+  About: /about
+  # ...
+
+rss:
+  enable: true
+
+valine:
+  enable: false
+
+# 无效？
+gitalk:
+  enable: true
+  github_id: Kyson
+  repository: hikyson.cn.comment
+  client_id: 5cb0b3168600c0308d55
+  client_secret: 90d4cbcfd26233824cffc7a45320a94995888456
+
+local_search:
+  enable: true
+  trigger: auto
+  unescape: false
+  preload: true
+
+# 无效？
+post_wordcount:
+  enable: true
+  wordcount: true
+  min2read: true
+
+home_article:
+  category:
+    enable: true
+    limit: 3
+  tag:
+    enable: true
+    limit: 5
+
+code_copy:
+  enable: true
+  style: default # values: default | mac
+
+toc:
+  enable: true
+  # Automatically add list number to toc.
+  number: true
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true
+
+copyright_info:
+  enable: true
+
+cdn:
+  enable: true
+
+footer:
+  since: 2013

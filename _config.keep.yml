@@ -9,7 +9,11 @@ style:
 
   # Image align position, value: left | center
   img_position: left
+  # Avatar (You can use local image or image external link)
+  avatar: https://raw.githubusercontent.com/Kyson/hikyson.cn.pic/master/e213e213/avatar.4c772x4cdju0.png
 
+  # Favicon (You can use local image or image external link)
+  favicon: https://raw.githubusercontent.com/Kyson/hikyson.cn.pic/master/e213e213/avatar.4c772x4cdju0.png
   # Left side width
   left_side_width: 260px
 
@@ -39,13 +43,17 @@ rss:
 valine:
   enable: false
 
-# 无效？
-gitalk:
+comment:
   enable: true
-  github_id: Kyson
-  repository: hikyson.cn.comment
-  client_id: 5cb0b3168600c0308d55
-  client_secret: 90d4cbcfd26233824cffc7a45320a94995888456
+  use: gitalk
+
+  # Gitalk
+  # See: https://github.com/gitalk/gitalk
+  gitalk:
+    github_id: Kyson
+    repository: kyson.github.io
+    client_id: c778d00f23747c433ec3
+    client_secret: 7f8928581654b1dece31f36813dba98f1fc6fcc4
 
 local_search:
   enable: true
@@ -53,11 +61,19 @@ local_search:
   unescape: false
   preload: true
 
-# 无效？
-post_wordcount:
-  enable: true
-  wordcount: true
-  min2read: true
+post:
+  # Post word count
+  # Dependencies: hexo-wordcount (npm install hexo-wordcount)
+  # See: https://github.com/willin/hexo-wordcount
+  word_count:
+    enable: true
+    wordcount: true  # word count, one article
+    min2read: true   # time to read, one article
+  author_label:
+    enable: false
+    auto: false  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    # label array item can be one or more
+    custom_label_list: ["Engineer"]
 
 home_article:
   category:

@@ -6,7 +6,7 @@
   <link href="https://hikyson.cn/atom.xml" rel="self"/>
   
   <link href="https://hikyson.cn/"/>
-  <updated>2021-02-10T07:22:40.873Z</updated>
+  <updated>2021-02-10T11:55:28.970Z</updated>
   <id>https://hikyson.cn/</id>
   
   <author>
@@ -17,48 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://hikyson.cn/2021/02/10/hello-world/"/>
-    <id>https://hikyson.cn/2021/02/10/hello-world/</id>
-    <published>2021-02-10T07:22:40.873Z</published>
-    <updated>2021-02-10T07:22:40.873Z</updated>
+    <title>开篇</title>
+    <link href="https://hikyson.cn/2021/02/10/%E5%BC%80%E7%AF%87/"/>
+    <id>https://hikyson.cn/2021/02/10/%E5%BC%80%E7%AF%87/</id>
+    <published>2021-02-10T07:47:19.000Z</published>
+    <updated>2021-02-10T11:55:28.970Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is your very first post. Che</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>aaa</title>
-    <link href="https://hikyson.cn/2021/02/10/aaa/"/>
-    <id>https://hikyson.cn/2021/02/10/aaa/</id>
-    <published>2021-02-10T03:40:20.000Z</published>
-    <updated>2021-02-10T07:22:40.873Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="大标题"><a href="#大标题" class="headerlink" title="大标题"></a>大标题</h2><h3 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h3><h4 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h4><h5 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h5><h6 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h6><blockquote><p>这是引用</p></blockquote><ol><li>序号1</li><li>序号1</li><li>序号1</li><li>序号1</li></ol><ul><li>序号1</li><li>序号1</li><li>序号1</li><li>序号1</li></ul><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line"><span class="function"><span class="built_in">std</span>::<span class="built_in">string</span> <span class="title">lib_name</span><span class="params">(<span class="string">&quot;libcutils.so&quot;</span>)</span></span>;</span><br><span class="line"><span class="function"><span class="built_in">std</span>::<span class="built_in">string</span> <span class="title">enabled_tags_sym</span><span class="params">(<span class="string">&quot;atrace_enabled_tags&quot;</span>)</span></span>;</span><br><span class="line">handle = dlopen(<span class="literal">nullptr</span>, RTLD_GLOBAL);</span><br><span class="line">atrace_enabled_tags =</span><br><span class="line">        <span class="keyword">reinterpret_cast</span>&lt;<span class="built_in">std</span>::atomic&lt;<span class="keyword">uint64_t</span>&gt; *&gt;(</span><br><span class="line">                dlsym(handle, enabled_tags_sym.c_str()));</span><br><span class="line">atrace_enabled_tags-&gt;exchange(UINT64_MAX);</span><br><span class="line">...</span><br></pre></td></tr></table></figure><p><img src="https://raw.githubusercontent.com/Kyson/hikyson.cn.pic/master/e213e213/.54zfjpolfxk0.png" alt="54zfjpolfxk0"></p><p><a class="link"   href="https://raw.githubusercontent.com/" >https://raw.githubusercontent.com<i class="fas fa-external-link-alt"></i></a></p><p>结束</p>]]></content>
+    <content type="html"><![CDATA[<p>回顾过去的7年，</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;大标题&quot;&gt;&lt;a href=&quot;#大标题&quot; class=&quot;headerlink&quot; title=&quot;大标题&quot;&gt;&lt;/a&gt;大标题&lt;/h2&gt;&lt;h3 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot; title=&quot;二级标题&quot;&gt;&lt;/a&gt;二级标</summary>
+    <summary type="html">&lt;p&gt;回顾过去的7年，&lt;/p&gt;
+</summary>
       
     
     
     
-    
-    <category term="ans" scheme="https://hikyson.cn/tags/ans/"/>
-    
-    <category term="fds" scheme="https://hikyson.cn/tags/fds/"/>
-    
-    <category term="sfdf" scheme="https://hikyson.cn/tags/sfdf/"/>
     
   </entry>
   

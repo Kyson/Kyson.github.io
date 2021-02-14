@@ -40,12 +40,16 @@ menu:
 rss:
   enable: true
 
-valine:
-  enable: false
-
 comment:
   enable: true
-  use: gitalk
+  use: valine
+
+  # Valine
+  # See: https://github.com/xCss/Valine
+  valine:
+    appid: o1FwfQ3hQfDfa85Kedsx4xoh-gzGzoHsz                # your leancloud application appid
+    appkey: NHir0HwGoVQYydX9qEMQmscw               # your leancloud application appkey
+    placeholder:          # your placeholder
 
   # Gitalk
   # See: https://github.com/gitalk/gitalk

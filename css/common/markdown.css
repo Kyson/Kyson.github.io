@@ -1,158 +1,146 @@
-.keep-markdown-body {
+.markdown-body {
   font-size: 1rem;
 }
-.keep-markdown-body blockquote {
+.markdown-body blockquote {
   box-sizing: border-box;
-  margin: 1.4rem 0;
-  color: var(--text-color-3);
-  background: var(--background-color-2);
-  border-left: 0.4rem solid var(--text-color-4);
+  border-left: 5px solid var(--default-text-color);
+  margin: 20px 0;
+  color: var(--default-text-color);
+  background: var(--second-background-color);
 }
-.keep-markdown-body blockquote p,
-.keep-markdown-body blockquote ul,
-.keep-markdown-body blockquote ol {
-  padding: 0.4rem 0.4rem 0.4rem 0.8rem;
+.markdown-body blockquote p {
+  padding: 5px 5px 5px 10px;
 }
-.keep-markdown-body p {
-  color: var(--text-color-3);
+.markdown-body p {
   line-height: 2;
+  color: var(--default-text-color);
 }
-.keep-markdown-body a {
+.markdown-body a {
   position: relative;
-  box-sizing: border-box;
-  padding-bottom: 0.2rem;
+  outline: 0;
   text-decoration: none;
   overflow-wrap: break-word;
-  border-bottom: 0.1rem solid var(--text-color-4);
-  outline: 0;
   cursor: pointer;
+  border-bottom: 1px solid var(--third-text-color);
+  box-sizing: border-box;
+  padding-bottom: 2px;
 }
-.keep-markdown-body a .fas,
-.keep-markdown-body a .far,
-.keep-markdown-body a .fab {
+.markdown-body a .fas,
+.markdown-body a .far,
+.markdown-body a fab {
+  margin-left: 6px;
   position: relative;
-  margin: 0 0.2rem 0 0.4rem;
-  color: var(--text-color-4);
-  font-size: 0.88rem;
+  color: var(--third-text-color);
 }
-.keep-markdown-body a:hover {
+.markdown-body a:hover {
   text-decoration: underline;
 }
-.keep-markdown-body a:hover::after {
+.markdown-body a:hover::after {
   background: var(--primary-color);
 }
-.keep-markdown-body strong {
-  color: var(--text-color-3);
+.markdown-body strong {
+  color: var(--default-text-color);
 }
-.keep-markdown-body em {
-  color: var(--text-color-3);
+.markdown-body em {
+  color: var(--default-text-color);
 }
-.keep-markdown-body ul li,
-.keep-markdown-body ol li {
-  margin-left: 1rem;
+.markdown-body ul > li,
+.markdown-body ol > li {
+  margin-left: 16px;
   line-height: 2rem;
 }
-.keep-markdown-body ul li {
+.markdown-body ul li {
   list-style: disc;
 }
-.keep-markdown-body ul li ul li {
+.markdown-body ul li ul li {
   list-style: circle;
 }
-.keep-markdown-body ul li ul li ul li {
+.markdown-body ul li ul li ul li {
   list-style: square;
 }
-.keep-markdown-body ol li {
+.markdown-body ol li {
   list-style: decimal;
 }
-.keep-markdown-body ol li ol li {
+.markdown-body ol li ol li {
   list-style: upper-alpha;
 }
-.keep-markdown-body ol li ol li ol li {
+.markdown-body ol li ol li ol li {
   list-style: upper-roman;
 }
-.keep-markdown-body li {
-  color: var(--text-color-3);
+.markdown-body li {
+  color: var(--default-text-color);
 }
-.keep-markdown-body h1,
-.keep-markdown-body h2,
-.keep-markdown-body h3,
-.keep-markdown-body h4,
-.keep-markdown-body h5,
-.keep-markdown-body h6 {
-  color: var(--text-color-2);
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  color: var(--second-text-color);
   line-height: 1.5;
 keep-tablet()
 }
-.keep-markdown-body h1 {
-  font-weight: 600;
+.markdown-body h1 {
   font-size: 1.8rem;
-keep-tablet()
-}
-.keep-markdown-body h2 {
   font-weight: 600;
+keep-tablet()
+}
+.markdown-body h2 {
   font-size: 1.7rem;
+  font-weight: 600;
 keep-tablet()
 }
-.keep-markdown-body h3 {
-  font-weight: 550;
+.markdown-body h3 {
   font-size: 1.6rem;
-keep-tablet()
-}
-.keep-markdown-body h4 {
   font-weight: 550;
+keep-tablet()
+}
+.markdown-body h4 {
   font-size: 1.5rem;
+  font-weight: 550;
 keep-tablet()
 }
-.keep-markdown-body h5 {
-  font-weight: 500;
+.markdown-body h5 {
   font-size: 1.28rem;
+  font-weight: 500;
 keep-tablet()
 }
-.keep-markdown-body h6 {
-  font-weight: 500;
+.markdown-body h6 {
   font-size: 1.2rem;
+  font-weight: 500;
   line-height: 1.2;
 keep-tablet()
 }
-.keep-markdown-body img {
-  position: relative;
-  display: block;
+.markdown-body img {
   box-sizing: border-box;
   max-width: 100%;
-  box-shadow: 0 0 0.2rem var(--shadow-color);
   cursor: zoom-in;
-  opacity: 1;
-  margin: 0.8rem 0 0.2rem;
+  display: block;
+  box-shadow: 0 0 2px var(--shadow-color);
+  margin: 10px 0 2px;
 }
-.keep-markdown-body img.hide {
-  opacity: 0;
-}
-.keep-markdown-body img[lazyload] {
-  margin: 0.8rem auto 0.2rem;
-}
-.keep-markdown-body > table {
+.markdown-body > table {
+  border-spacing: 0;
+  border-collapse: collapse;
   width: 100%;
   overflow: auto;
-  border-collapse: collapse;
-  border-spacing: 0;
-keep-mobile()
 }
-.keep-markdown-body > table td,
-.keep-markdown-body > table th {
+.markdown-body > table td,
+.markdown-body > table th {
   padding: 0;
 }
-.keep-markdown-body > table th {
+.markdown-body > table th {
   font-weight: 600;
 }
-.keep-markdown-body > table td,
-.keep-markdown-body > table th {
-  padding: 0.4rem 1rem;
-  border: 0.1rem solid var(--border-color);
+.markdown-body > table td,
+.markdown-body > table th {
+  padding: 6px 13px;
+  border: 1px solid var(--border-color);
 }
-.keep-markdown-body > table tr {
-  background-color: var(--background-color-1);
-  border: 0.1rem solid var(--text-color-6);
+.markdown-body > table tr {
+  background-color: var(--background-color);
+  border: 1px solid var(--fourth-text-color);
 }
-.keep-markdown-body > table tr:nth-child(2n) {
-  background-color: var(--background-color-2);
+.markdown-body > table tr:nth-child(2n) {
+  background-color: var(--second-background-color);
 }

@@ -19,6 +19,17 @@
 - npm install
 - npm run build
 
+## 备案
+
+/node_modules/hexo-theme-keep/layout/_partial/footer.ejs
+
+```js
+<div class="info-item">
+            <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备17030847号</a>
+        </div>
+```
+
+
 ## 修改发布
 
 - git checkout source
